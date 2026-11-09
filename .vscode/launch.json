@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "POS Kantin Bu Siti (Chrome + Supabase)",
+      "templateFor": "",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "cwd": "${workspaceFolder}",
+      "toolArgs": [
+        "--dart-define-from-file=supabase_config.json"
+      ],
+      "deviceId": "chrome"
+    }
+  ]
+}
